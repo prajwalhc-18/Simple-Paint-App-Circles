@@ -1,4 +1,4 @@
-# Simple-Paint-App-Circles
+# Simple Paint App
 
 ## Overview
 
@@ -6,7 +6,7 @@ The Simple Paint App is a two-module web application that allows users to create
 
 ## Project Structure
 
-Simple-Paint-App-Circles/
+Simple-Paint-App/
 │
 ├── module-1/
 │   ├── index.html         // HTML file for Module 1
