@@ -1,5 +1,7 @@
 # Simple Paint App
 
+#Check-Live-Project: https://paint-circles-hitmiss-gameapp.netlify.app/
+
 ## Overview
 
 The Simple Paint App is a two-module web application that allows users to create circles on a canvas in the first module and then play a hit/miss game with those circles in the second module. The circles created in Module 1 are saved and transferred to Module 2 for the "Hit" & "Miss" Play.
