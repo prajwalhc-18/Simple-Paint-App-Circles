@@ -1,0 +1,77 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Aldrich", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+#canva-section {
+  position: relative;
+  margin: 20px;
+  height: calc(
+    75vh - 60px
+  ); 
+  width: calc(100% - 50px); /* Width of viewport minus some margin */
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid black;
+  border-radius: 5px;
+}
+
+#canva {
+  width: 100%;
+  height: 100%;
+  background-color: #fff; /* Fallback color if canvas is not supported */
+}
+
+#message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: rgb(252, 46, 46);
+  text-align: center;
+  display: none;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #000000;
+}
+
+.reset-btn {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin: 20px;
+}
+
+.reset-btn button {
+  padding: 8px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  font-weight: 600;
+  border: 2px solid black;
+  font-family: "Aldrich", sans-serif;
+}
+
+.reset-btn button:hover {
+  color: white;
+  background-color: black;
+}
