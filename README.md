@@ -9,6 +9,7 @@ The Simple Paint App is a two-module web application that allows users to create
 ## Project Structure
 
 Simple-Paint-App/
+│── index.html
 │
 ├── module-1/
 │   ├── index.html         // HTML file for Module 1
